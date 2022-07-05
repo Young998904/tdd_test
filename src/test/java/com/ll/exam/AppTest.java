@@ -23,4 +23,10 @@ public class AppTest {
         int rs = Calculator.add("20 + 20");
         assertEquals(40, rs); // 위 함수가 정상 실행되었을 때 예상값
     }
+    @Test
+    public void 더하기_테스트_3() {
+        // 과정 3 : 테스트 추가 생성
+        int rs1 = Calculator.add("10 + 10");
+        assertEquals(20, rs1); // 위 함수가 정상 실행되었을 때 예상값
+    }
 }
